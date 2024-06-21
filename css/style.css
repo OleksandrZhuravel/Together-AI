@@ -1,0 +1,485 @@
+/* font-family: 'Geologica', sans-serif; */
+/* font-family: 'Unbounded', cursive; */
+body {
+	font-family: 'Geologica', sans-serif;
+	font-weight: 400;
+	background-color: #F2F5FA;
+}
+.container-fluid {
+	max-width: 1440px;
+}
+.container {
+	max-width: 1296px;
+}
+.nav_background {
+	background: linear-gradient(270.17deg, #4F74EC 8.6%, #4F1ABF 103.32%);
+}
+.navbar-brand img{
+	max-width: 200px;
+}
+.main_link {
+	font-size: 14px;
+	color: #ffffff;
+	transition: color 0.3s ease 0s;
+}
+.main_link:hover {
+	color: #00FF94;
+}
+.main_btn {
+	line-height: 16px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 16px 24px;
+	gap: 10px;
+	max-width: 200px;
+	max-height: 42px;
+	background-color: #00FF94;
+	border-radius: 30px;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	color: #ffffff;
+	background: linear-gradient(255.94deg, #00FF94 -16.37%, #4F74EC 47.91%, #8729FF 114.92%);
+}
+.header_btn {
+	background: #00FF94;
+	color: #392972;
+}
+.main_btn:hover {
+	background: linear-gradient(-255.94deg, #00FF94 -16.37%, #4F74EC 47.91%, #8729FF 114.92%);
+}
+.header_btn:hover {
+	background: #1be1a3;
+	color: #ffffff;
+}
+.main_container {
+	background: url('../img/main_bg.png') no-repeat center;
+	background-size: cover;
+}
+.main_subtitle {
+	color: #ffffff;
+}
+.main_subtitle span {
+	color: #00FF94;
+}
+
+@media (max-width: 1002px) {
+	.main_subtitle {
+		font-size: 14px;
+	}
+}
+@media (max-width: 420px) {	
+	.main_subtitle {
+		font-size: 12px;
+	}
+	.main_title img{
+		width: 50%;
+	}
+}
+.intelligence_img {
+	width: 90%;
+}
+.block_title {
+	font-family: 'Unbounded';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 150%;
+	color:#211E37;
+}
+.block_title span {
+	text-edge: cap;
+	background: linear-gradient(270.17deg, #00FF94 -6.41%, #4F74EC 52.46%, #8729FF 103.32%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
+}
+.round_card {
+	border-radius: 8px;
+}
+@media (max-width: 1040px) {
+	.block_title, .block_title span {
+		font-size: 32px;
+	}
+}
+@media (max-width: 769px) {
+	.block_title, .block_title span {
+		font-size: 27px;
+	}
+	.round_card {
+		font-size: 14px;
+	}
+}
+@media (max-width: 510px) {
+	.block_title, .block_title span {
+		font-size: 24px;
+	}
+	.round_card {
+		font-size: 12px;
+	}
+}
+.container_black {
+	background-color:  #141223;
+	border-radius: 8px;
+}
+.block_subtitle{
+	font-family: 'Unbounded';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 150%;
+	color: #FFFFFF;
+}
+@media (max-width: 992px) {
+	.block_subtitle {
+		font-size: 18px;
+	}
+}
+@media (max-width: 488px) {
+	.block_subtitle {
+		font-size: 16px;
+	}
+}
+.chatbot_stats {
+	width: 269px;
+}
+.chatbot_title {
+	max-width: 459px;
+}
+.chatbot_line1 {
+	height: 11px;
+	max-width: 184px;
+	width: 100%;
+	background: linear-gradient(270.17deg, #00FF94 -6.41%, #4F74EC 52.46%, #8729FF 103.32%);
+	border-radius: 9px;
+}
+.chatbot_line2 {
+	max-width: 102px;
+	height: 11px;
+	width: 100%;
+	background: linear-gradient(270.17deg, #00FF94 -6.41%, #4F74EC 52.46%, #8729FF 103.32%);
+	border-radius: 9px;
+}
+.chatbot_line3 {
+	max-width: 173px;
+	height: 11px;
+	width: 100%;
+	background: linear-gradient(270.17deg, #00FF94 -6.41%, #4F74EC 52.46%, #8729FF 103.32%);
+	border-radius: 9px;
+}
+.chatbot_line4 {
+	max-width: 130px;
+	height: 11px;
+	width: 100%;
+	background: linear-gradient(270.17deg, #00FF94 -6.41%, #4F74EC 52.46%, #8729FF 103.32%);
+	border-radius: 9px;
+}
+.chatbox_stats_item_text {
+	font-style: normal;
+	font-weight: 400;
+	line-height: 150%;
+	color: #FFFFFF;
+	white-space: nowrap;
+}
+.chatbot_right {
+	max-width: 390px;
+}
+.opportunities_card .opportunities_card_title {
+	color: #211E37;
+	font-family: 'Unbounded';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 150%;
+}
+.opportunities_card{
+	color: #9592AD;
+	cursor: pointer;
+	transition: all 0.25s linear;
+}
+.opportunities_card:hover {
+	background-color: #141223;
+}
+.opportunities_card:hover .opportunities_card_title {
+	text-edge: cap;
+	background: linear-gradient(270.17deg, #00FF94 -6.41%, #4F74EC 52.46%, #8729FF 103.32%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
+}
+.opportunities_card_trans {
+	max-width: 100%;
+	transform: translateX(12%);
+}
+@media (max-width: 992px) {
+	.opportunities_card_trans {
+		transform: translateX(0%);
+	}
+}
+.advantage_block_title {
+	margin-left: 50%;
+}
+@media (max-width: 768px) {
+	.advantage_block_title {
+		margin-left: 0;
+	}
+}
+.navbar-toggler {
+	box-shadow: none !important;
+	outline: none !important;
+}
+.advantage_card_gray {
+	background-color: #2D2A3E;
+	color: #AFB5CB;
+	max-width: 360px;
+	width: 100%;
+}
+.advantage_card_title {
+	font-family: 'Unbounded';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 150%;
+}
+.advantage_card_list {
+	list-style: none;
+}
+.advantage_card_item_left::before {
+	content: url("../img/graycheck.svg");
+	margin-right: 10px;
+}
+.advantage_card {
+	background-color: #141223;
+	max-width: 360px;
+	width: 100%;
+}
+.advantage_card_title_right {
+	font-family: 'Unbounded';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 150%;
+	color: #00FF94;
+}
+.advantage_card_item_right::before {
+	content: url("../img/check.svg");
+	margin-right: 10px;
+	margin-top: 3px;
+}
+.keysy_card_title {
+	text-edge: cap;
+	background: linear-gradient(270.17deg, #00FF94 -6.41%, #4F74EC 52.46%, #8729FF 103.32%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
+	font-family: 'Unbounded';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 150%;
+	transition: all 0.3s linear;
+}
+.keysy_card_text p {
+	color: #9592AD;
+	transition: color 0.4s linear;
+}
+.keysy_link a {
+	text-decoration: none;
+}
+.keysy_card:hover .keysy_card_title  {
+	-webkit-text-fill-color: unset;
+	color: #fff;
+}
+.keysy_card:hover .keysy_card_text p {
+	color: #fff;
+}
+@media (max-width: 1190px) {
+	.keysy_card_title {
+		font-size: 16px;
+	}
+	.keysy_card_text p {
+		font-size: 14px;
+	}
+}
+@media (max-width: 768px) {
+	.keysy_card_title {
+		font-size: 14px;
+	}
+	.keysy_card_text p {
+		font-size: 12px;
+	}
+}
+.tariff_price {
+	font-family: 'Unbounded';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 24px;
+	line-height: 150%;
+	color: #ffffff;
+}
+.tariff_price span{
+	font-family: 'Unbounded';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 150%;
+	color: #00FF94;
+}
+.free_version_title {
+	font-family: 'Unbounded';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 128px;
+	text-edge: cap;
+	background: linear-gradient(270.17deg, #00FF94 -6.41%, #4F74EC 52.46%, #8729FF 103.32%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
+}
+.free_version_title span {
+	font-weight: 300;
+	font-size: 36px;
+}
+.free_version_right {
+	max-width: 409px;
+}
+.free_version1 {
+	height: 11px;
+	max-width: 326px;
+	width: 100%;
+	background: linear-gradient(270.17deg, #00FF94 -6.41%, #4F74EC 52.46%, #8729FF 103.32%);
+	border-radius: 9px;
+}
+.free_version2 {
+	height: 11px;
+	max-width: 244px;
+	width: 100%;
+	background: linear-gradient(270.17deg, #00FF94 -6.41%, #4F74EC 52.46%, #8729FF 103.32%);
+	border-radius: 9px;
+}
+.free_version3 {
+	height: 11px;
+	max-width: 313px;
+	width: 100%;
+	background: linear-gradient(270.17deg, #00FF94 -6.41%, #4F74EC 52.46%, #8729FF 103.32%);
+	border-radius: 9px;
+}
+.free_version4 {
+	height: 11px;
+	max-width: 272px;
+	width: 100%;
+	background: linear-gradient(270.17deg, #00FF94 -6.41%, #4F74EC 52.46%, #8729FF 103.32%);
+	border-radius: 9px;
+}
+.free_version5 {
+	height: 11px;
+	max-width: 300px;
+	width: 100%;
+	background: linear-gradient(270.17deg, #00FF94 -6.41%, #4F74EC 52.46%, #8729FF 103.32%);
+	border-radius: 9px;
+}
+.free_version6 {
+	height: 11px;
+	max-width: 272px;
+	width: 100%;
+	background: linear-gradient(270.17deg, #00FF94 -6.41%, #4F74EC 52.46%, #8729FF 103.32%);
+	border-radius: 9px;
+}
+.free_version7 {
+	height: 11px;
+	max-width: 297px;
+	width: 100%;
+	background: linear-gradient(270.17deg, #00FF94 -6.41%, #4F74EC 52.46%, #8729FF 103.32%);
+	border-radius: 9px;
+}
+.keysy_card .clients_card_img img{
+	border: 2px solid transparent;
+	transition: all 0.2s linear;
+	border-radius: 50%;
+}
+.keysy_card:hover .clients_card_img img {
+	border: 2px solid #FFFFFF;
+
+}
+#accordionPanelsStayOpenExample .accordion-item {
+	border-radius: 12px;
+	overflow: hidden;
+}
+#accordionPanelsStayOpenExample .accordion-button {
+	box-shadow: none;
+	outline: none;
+	border: none;
+}
+#accordionPanelsStayOpenExample .accordion-button .acc_title {
+	font-family: 'Unbounded';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 150%;
+	color: #fff;	
+}
+#accordionPanelsStayOpenExample .accordion-button[aria-expanded="true"] .acc_title {
+	color: #00FF94;	
+}	
+#accordionPanelsStayOpenExample .accordion-button::after {
+	background-image: url('../img/plus.svg');
+}
+#accordionPanelsStayOpenExample .accordion-button[aria-expanded="true"]::after {
+	background-image: url('../img/minus.svg');
+}
+@media (max-width: 768px) {
+	.acc_title {
+		font-size: 14px;
+	}
+}
+.accordion {
+	max-width: 1070px;
+}
+
+footer {
+	background-color:  #141223;
+}
+.footer_links {
+	list-style: none;
+}
+.footer_links_title {
+	font-family: 'Unbounded';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 150%;
+}
+.footer_link a{
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 200%;
+	color: #9592AD;
+	text-decoration: none;
+}
+.footer_link a:hover {
+	text-decoration: underline;
+}
+.border-top {
+    border-top: 1px solid #dee2e6!important;
+}
+.footer_bootom_text {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 15px;
+	color: #9592AD;
+}
+.footer_social_item {
+	fill:white;
+	transition: fill 0.25s linear;
+}
+.footer_social_item:hover {
+	fill: #00FF94;
+} 
+
